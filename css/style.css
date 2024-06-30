@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    perspective: 700;
+    color: #310055;
+}
+
+#header {
+    text-transform: uppercase;
+}
+#header a{
+    color: #7209b7;
+}
+#header-drop-text{
+    color: #b5179e;
+    font-weight: 700;
+}
+.navbarDropdown1:hover {
+    transform:scale(1.1 , 1.1) ;
+    background-color: #a8a3f1;
+}
+#nav-li3:hover #navbarDropdown::first-letter {
+    color:#f72585;
+}
+.imgFixed {
+    background: url(../images/img36.jpg) no-repeat fixed;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+}
+.home6-container{
+    position: relative;
+}
+.home6-content { 
+    height: 350px;
+}
+.home6-btn {
+    height:35px;
+}
+.home6-content::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    background-color:rgb(207, 221, 248);
+}
+.home6-content:hover::after {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: 1s;
+}
+.home6-content::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+    background-color:rgb(207, 221, 248);
+}
+.home6-content:hover::before {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: 0.5s;
+}
+#div1-info {
+    background: url(../images/hope2.png) no-repeat;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+}
+#div1-info::after {
+    position: absolute;
+    content: "";
+    background-color: #949292;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#div1-info:hover::after {
+    background-color: #9791f3;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#div1-info:hover {
+    transform: scale(0.9 , 0.9);
+}
+#div1-info-content{
+    position: absolute;
+    z-index: 1;
+}
+.hrr-1 {
+     background-color: #6818a5;
+     width:25%;
+     height:5px;
+}
+#news-contain{
+    transform-style: preserve-3d;
+}
+#news-contain:hover .hrr-1 {
+    width: 35%;
+}
+#news-contain:hover #home9-img {
+    transform:translate3d(0px,0px,500px);
+}
+#home9-Link:hover {
+ background-color: rgb(129, 96, 245);
+ border: 0;
+}
+#joinus {
+    box-shadow:1px 1px 8px 1px  rgb(181, 121, 230) , -1px -1px 8px 1px  rgb(181, 121, 230);
+}
+#lastSec-img {
+    box-shadow:-1px -1px 8px 1px  rgb(229, 225, 233);
+}
+.home10 img {
+    box-shadow:1px 1px 8px 1px  rgb(181, 121, 230) , -1px -1px 8px 1px  rgb(181, 121, 230);
+}
+.gradient  {
+background: -webkit-linear-gradient(#310055 , #e2b1fa);
+-webkit-background-clip: text;
+color: transparent;
+text-transform:uppercase;
+}
+.home3-content , #boldText , .home2 ,.home10 ,.last-txt , .last-boldtxt{
+    color: #310055;
+}
+#boldText , .gradient ,.last-boldtxt , #head-Dli {
+    font-weight: 700;
+}
+#home4-copy {
+    border-radius:1px 25px 25px ;
+}
+.home4 {
+    background-color:#f6eafc ;
+}
+.home4-link {
+    color: #7209b7;
+}
+.home6-img {
+    height: 40%;
+}
+.home9-content {
+    color: #501280;
+}
+.last-sec {
+    background-color:#d3c3dd;
+}
+.tooltip1 {
+     position: relative; 
+     display: inline-block;
+    }
+      
+.tooltip1 .tooltiptext1 {
+    visibility: hidden;
+    background-color:#a846ee;
+    color: white;
+    text-align: center;
+    border-radius: 0px 8px 8px;
+    padding: 5px 10px;
+    position: absolute;
+    top:25px
+    }
+      
+.tooltip1:hover .tooltiptext1 {
+     visibility: visible;
+    }
+.icon-i {
+    color:#ab92bb;
+}
+.icon-i:hover {
+    color:#6e6072;
+}
+   
